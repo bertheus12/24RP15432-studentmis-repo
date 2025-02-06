@@ -1,0 +1,10 @@
+version: '47.1'
+
+services:
+  24RP15432-php:
+    image: php:8.2.12-apache
+    container_name: 24RP15432-php
+    volumes:
+      - "C:/xampp/htdocs/24RP15432:/var/www/html"
+    ports:
+      - "8085:80"
